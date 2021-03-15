@@ -136,7 +136,7 @@ public class Main {
 
     private static ArrayList<Integer> getArrayListFromFile() throws FileNotFoundException {
         List<Integer> myNumbers = new ArrayList<Integer>();
-        File file = new File("C:\\\\Users\\\\Dell\\\\Downloads\\\\IT\\\\Data Structures and Algorithm\\\\simenarone\\\\one\\\\src\\\\Seminar 1 - File with random numbers.txt");
+        File file = new File("src/Seminar 1 - File with random numbers.txt");
         BufferedReader reader = null;
 
         try {
